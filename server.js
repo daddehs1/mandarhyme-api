@@ -33,4 +33,4 @@ router.route('/search').get((req, res) => {
   }
 });
 
-app.use('/api', router);
+app.use('/', router);
